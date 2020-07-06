@@ -21,6 +21,7 @@ public class Tested {
 
         Assert.assertArrayEquals(main.arrayAfterFour(new int[]{1,4,5,4,5,7}), new int []{5,7});
     }
+
 //    @Test(expected = RuntimeException.class)
 //    public void testAdd3(){
 //

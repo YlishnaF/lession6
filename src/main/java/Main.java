@@ -21,6 +21,7 @@ public class Main {
 //            }
 //
 //        }
+
         int[] newArr = new int[arr.length - 1 - k];
         System.arraycopy(arr, k + 1, newArr, 0, arr.length - 1 - k);
         return newArr;
